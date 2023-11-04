@@ -4,7 +4,7 @@
   "description": "my developer portfolio",
   "main": "index.js",
   "scripts": {
-    "predeploy": "cd Main; npm run build",
+    "predeploy": "cd Main && npm run build",
     "deploy": "gh-pages -d build"
   },
   "author": "NitTwit",
